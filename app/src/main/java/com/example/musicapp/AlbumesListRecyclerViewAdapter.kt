@@ -3,12 +3,12 @@ package com.example.musicapp
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.musicapp.service.MusicResponse
+import com.example.musicapp.service.AlbumesResponse
 
 
 class AlbumesListRecyclerViewAdapter : RecyclerView.Adapter<AlbumesListViewHolder>() {
 
-    var listaAlbumes = listOf<MusicResponse.AlbumesItem>()
+    var listaAlbumes = listOf<AlbumesResponse.AlbumesItem>()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlbumesListViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.datos_albumes,parent,false)
         return AlbumesListViewHolder(view)

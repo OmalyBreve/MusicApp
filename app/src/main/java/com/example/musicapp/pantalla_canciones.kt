@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.musicapp.repo.CancionesRepo
 import com.example.musicapp.service.CancionesService
+import kotlinx.android.synthetic.main.activity_pantalla_canciones.*
 
 
 class pantalla_canciones : AppCompatActivity() {

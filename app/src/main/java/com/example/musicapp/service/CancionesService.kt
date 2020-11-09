@@ -9,7 +9,7 @@ interface CancionesService {
     @GET("image")
 
 
-    fun listaCanciones(): Call<MusicResponse>
+    fun listaCanciones(): Call<CancionesResponse>
 
     companion object{
         val instance: CancionesService by lazy{

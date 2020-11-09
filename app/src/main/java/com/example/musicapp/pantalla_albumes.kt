@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.musicapp.repo.AlbumesRepo
 import com.example.musicapp.service.AlbumesService
+import kotlinx.android.synthetic.main.activity_pantalla_albumes.*
 
 class pantalla_albumes : AppCompatActivity() {
     lateinit var rcvAlbumesList : RecyclerView
@@ -17,7 +18,7 @@ class pantalla_albumes : AppCompatActivity() {
         val albumesRepo = AlbumesRepo(albumesService)
         val albumesListAdapter = AlbumesListRecyclerViewAdapter()
 
-        albumesRepo.listarArtistas {
+        albumesRepo.listarAlbumes {
             if(it != null){
 
                 albumesListAdapter.listaAlbumes = it

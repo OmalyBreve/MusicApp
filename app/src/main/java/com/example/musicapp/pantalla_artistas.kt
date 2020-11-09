@@ -7,7 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.musicapp.repo.ArtistaRepo
 import com.example.musicapp.service.ArtistasService
 import kotlinx.android.synthetic.main.activity_pantalla_artistas.*
-import kotlinx.android.synthetic.main.activity_pantalla_artistas.*
 
 class pantalla_artistas : AppCompatActivity() {
     lateinit var rcvArtistasList : RecyclerView
