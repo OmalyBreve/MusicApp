@@ -5,7 +5,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class CancionesRepo(private val cancionessService: CancionesService) {
+class CancionesRepo(private val cancionesService: CancionesService) {
 
     fun listarCanciones(callBack: (List<MusicResponse.CancionesItem>?)-> Unit){
         val cancionesCall = cancionessService.listaCanciones()

@@ -4,7 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.activity_pantalla_artistas.*
+import com.example.musicapp.repo.CancionesRepo
+import com.example.musicapp.service.CancionesService
 
 
 class pantalla_canciones : AppCompatActivity() {
@@ -25,7 +26,6 @@ class pantalla_canciones : AppCompatActivity() {
 
             }
         }
-
 
         rcvCancionesList = rcvCanciones
         rcvCancionesList.layoutManager = LinearLayoutManager(this)
