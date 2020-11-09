@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".datos_albumes"></activity>
-        <activity android:name=".pantalla_genero" />
         <activity android:name=".pantalla_albumes" />
         <activity android:name=".pantalla_artistas" />
         <activity android:name=".pantalla_canciones" />
