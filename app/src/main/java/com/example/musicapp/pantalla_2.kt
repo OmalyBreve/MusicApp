@@ -23,11 +23,6 @@ class pantalla_2 : AppCompatActivity() {
             val intent: Intent = Intent(this, pantalla_canciones::class.java)
             startActivity(intent)
         }
-        btnGenero.setOnClickListener {
-            val intent: Intent = Intent(this, pantalla_genero::class.java)
-            startActivity(intent)
-        }
-
 
         }
 

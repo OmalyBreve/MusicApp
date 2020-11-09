@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondorosa"
+    android:background="@drawable/fondo_mar"
     tools:context=".MainActivity">
 
     <ImageButton
@@ -15,6 +15,8 @@
         android:background="@null"
         android:contentDescription="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
@@ -29,6 +31,8 @@
         android:contentDescription="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925"
         app:srcCompat="@drawable/boton_next" />
@@ -89,19 +93,22 @@
         android:textColor="#000000"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008" />
+        app:layout_constraintVertical_bias="0.013" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.106"
         app:srcCompat="@drawable/fondo_album" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

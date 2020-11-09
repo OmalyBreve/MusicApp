@@ -15,14 +15,11 @@
     <string name="txt_Artista1">Artista1</string>
     <string name="txt_Artista2">Artista2</string>
     <string name="txt_Artista3">Artista3</string>
+    <string name="txt_Artista4">Artista4</string>
     <string name="txt_Cancion1">Cancion1</string>
     <string name="txt_Cancion2">Cancion2</string>
     <string name="txt_Cancion3">Cancion3</string>
     <string name="txt_Cancion4">Cancion4</string>
-
-
-
-
 
 
 </resources>

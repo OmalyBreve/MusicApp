@@ -15,34 +15,40 @@
         android:text="Regresar"
         android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.019" />
 
     <Button
         android:id="@+id/btnCanciones"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="10dp"
         android:background="@null"
         android:text="@string/txt_Canciones"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.012"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247" />
+        app:layout_constraintVertical_bias="0.248" />
 
     <Button
         android:id="@+id/btnArtistas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="10dp"
         android:background="@null"
         android:text="@string/txt_Artistas"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455" />
@@ -51,28 +57,32 @@
         android:id="@+id/btnAlbumes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="10dp"
         android:background="@null"
         android:text="@string/txt_Albumes"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.664" />
+        app:layout_constraintVertical_bias="0.675" />
 
     <Button
         android:id="@+id/btnGenero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="10dp"
         android:background="@null"
         android:text="@string/txt_Genero"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.885" />
+        app:layout_constraintVertical_bias="0.877" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
