@@ -1,18 +1,11 @@
 package com.example.musicapp.service
 
 data class AlbumesResponse(
-    val name: String,
-    val image: List<AlbumesItem>
+    var name: String?=null,
+    var url:String ?=null,
+    var duration:String?=null,
 
-) {
-
-    class AlbumesItem(
-        val text: String,
-        val size: Int
-
-    ){
+    ) {
 
 
-
-    }
 }

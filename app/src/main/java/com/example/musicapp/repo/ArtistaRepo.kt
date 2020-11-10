@@ -1,23 +1,22 @@
 package com.example.musicapp.repo
 
 import com.example.musicapp.service.ArtistasService
-import com.example.musicapp.service.MusicResponse
+import com.google.gson.JsonObject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 class ArtistaRepo(private val artistasService: ArtistasService) {
 
-    fun listarArtistas(callBack: (List<MusicResponse.ArtistasItem>?)-> Unit){
+    fun listarArtistas(callBack: (JsonObject?)-> Unit){
         val artistasCall = artistasService.listaArtistas()
-        artistasCall.enqueue(object: Callback<MusicResponse>{
-            override fun onResponse(call: Call<MusicResponse>, response: Response<MusicResponse>) {
+        artistasCall.enqueue(object: Callback<JsonObject>{
+            override fun onResponse(call: Call<JsonObject>, response: Response<JsonObject>) {
                 val body = response?.body()
-                callBack(body?.image)
-
+                callBack(body)
             }
 
-            override fun onFailure(call: Call<MusicResponse>, t: Throwable) {
+            override fun onFailure(call: Call<JsonObject>, t: Throwable) {
                 callBack(null)
             }
 
